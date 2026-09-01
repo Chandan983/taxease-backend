@@ -15,7 +15,7 @@ connectDB();
 app.use(cors({
   origin: [
     "https://taxease-frontend.onrender.com",
-    "http://localhost:3000",
+    "http://localhost:1000",
     "http://127.0.0.1:5500"
   ],
   credentials: true
