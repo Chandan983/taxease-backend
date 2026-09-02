@@ -12,14 +12,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({
-  origin: [
-    "https://taxease-frontend.onrender.com",
-    "http://localhost:1000",
-    "http://127.0.0.1:5500"
-  ],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // Routes
